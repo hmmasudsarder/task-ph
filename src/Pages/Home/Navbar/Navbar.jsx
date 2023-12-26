@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../../../Components/Shared/Container/Container'
-import logo from "../../../assets/images/download.png";
+import logo from "../../../assets/images/log.jpg";
 
 const Navbar = () => {
   return (
@@ -17,8 +17,8 @@ const Navbar = () => {
               <li><a>Dashboard</a></li>
             </ul>
           </div>
-          <div className="btn text-xl">
-            <img src={logo} alt="" className='w-auto h-[40px]' />
+          <div className="-mt-4">
+            <img src={logo} alt="" className='h-[45px]' />
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
