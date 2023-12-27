@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div>
+    <div className='-mt-3'>
       <div className="carousel w-full h-[600px]">
         <div id="slide1" className="carousel-item relative w-full">
           <img src={img1} className="w-full rounded-xl" />
@@ -13,7 +13,7 @@ const Banner = () => {
               <p className="text-6xl font-bold">Task Management For Every Employee</p>
               <p className="font-semibold">There are To Do List OnGoing Complate</p>
               <div className="flex">
-                <Link to='/dashboard' className="btn btn-outline btn-warning">Let's Explore
+                <Link to='/dashboard' className="btn btn-outline btn-info">Let's Explore
                   <FaArrowRight />
                 </Link>
               </div>

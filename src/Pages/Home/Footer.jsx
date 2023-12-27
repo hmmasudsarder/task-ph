@@ -17,13 +17,13 @@ const Footer = () => {
           <header className="footer-title">Social</header>
           <div className="grid grid-flow-col gap-4">
             <div className="flex-col">
-              <a href="" className='flex text-xl gap-1 items-center'>
+              <a href="https://www.facebook.com/MdHridoybin/" className='flex text-xl gap-1 items-center'>
                 <FaFacebook /> <p>FACEBOOK</p>
               </a>
             </div>
             <br /> <br />
             <div className="flex-col">
-              <a href="" className='flex text-xl gap-1 items-center'>
+              <a href="https://github.com/hmmasudsarder" className='flex text-xl gap-1 items-center'>
                 <FaGithub /> <p>GITHUB</p>
               </a>
             </div>

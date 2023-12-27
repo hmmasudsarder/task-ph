@@ -7,14 +7,14 @@ import User from "./Navbar/User";
 const Home = () => {
     return (
         <>
-        <Container className="">
-            <Navbar/>
-            <Banner/>
-            <User/>
-        </Container>
-        <Footer/>
+            <Navbar />
+            <Container className="">
+                <Banner />
+                <User />
+            </Container>
+            <Footer />
         </>
-        
+
     );
 }
 
