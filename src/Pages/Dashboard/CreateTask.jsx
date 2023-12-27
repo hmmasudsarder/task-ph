@@ -53,7 +53,7 @@ const CreateTask = ({ tasks, setTasks }) => {
                     <form onSubmit={handleProductAdd}>
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text">TITLE</span>
+                                <span className="label-text font-bold">TITLE</span>
                             </label>
                             <input
                                 type="text"
@@ -66,7 +66,7 @@ const CreateTask = ({ tasks, setTasks }) => {
 
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text">DESCRIPTION</span>
+                                <span className="label-text font-bold">DESCRIPTION</span>
                             </label>
                             <textarea
                                 type="text"
@@ -78,7 +78,7 @@ const CreateTask = ({ tasks, setTasks }) => {
                         </div>
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text">DATELINE</span>
+                                <span className="label-text font-bold">DATELINE</span>
                             </label>
                             <input
                                 type="date"

@@ -16,10 +16,11 @@ const Router = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: '/dashboard',
+                path: `/dashboard`,
                 element:
                     <Dashboard />
                 ,
+                loader: () => fetch('http://localhost:5000/task')
             },
             {
                 path: '/login',

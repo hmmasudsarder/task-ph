@@ -16,10 +16,7 @@ const Navbar = () => {
         <NavLink to="/">Home</NavLink>
       </li>
       <li className="font-semibold uppercase">
-        <NavLink to="/add">Add Products</NavLink>
-      </li>
-      <li className="font-semibold uppercase">
-        {/* <NavLink to="">My Cart</NavLink> */}
+        <NavLink to="/login">Add Task</NavLink>
       </li>
       <li className="font-semibold uppercase">
         {
